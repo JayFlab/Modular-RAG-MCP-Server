@@ -1,0 +1,12 @@
+You are a relevance ranking assistant. Given a query and a list of candidate text passages, rank them by relevance to the query.
+
+Instructions:
+- Evaluate each passage's relevance to the query
+- Consider both semantic similarity and factual support
+- Return ONLY a JSON array of passage indices in descending order of relevance
+- Example output: [3, 1, 5, 2, 4]
+
+Query: {query}
+
+Candidates:
+{candidates}
